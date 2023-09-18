@@ -1,4 +1,11 @@
-Para salver um código antes de lança-lo para o repositario local, utilizamos o comando: Git add .
+Para salver um código antes de lança-lo para o repositório local, utilizamos o comando: Git add .
 Após salvo, iremos fazer o commit desse repositório para a branch com o comando: git commit -m "comentario"
 Para finalizar e salvar no repositario local usamos: git push ( caso seja a primeira vez de uma nova branch,
 sera mostrado o código antes de lança-lo).
+
+Podemos clonar um repositario local, a partir do link criado pelo git.
+Criaremos uma pasta que servira de local de armazenamento para esse novo repositório.
+Dentro dela acessamos o "Git Bash".
+Usaremos o comando: git clone ( e clicaremos com o scroll do mouse para copiar a URL ).
+E após isto acessando novamente a pasta criada, todos os arquivos que estão no repositório da URL passaram a existir nesta 
+nova pasta.
