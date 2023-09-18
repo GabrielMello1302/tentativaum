@@ -27,3 +27,12 @@ A sintaxe : -b. Nos indica que a FEATURE que esta sendo criada, será na branch 
 Ao executar esse comando ele criou uma branch nova chamada "Feature/tela-login" a parit da develop.
 
 Em resumou foi-se criada uma branch a partir de outra, sendo que está é um clone do repositório do Github.
+
+Em uma empresa é este processo que é feito: 
+1º: baixa o código do git em uma pasta local (clone).
+2º: muda da branch MASTER(ou qualquer que seja) para DEVELOP.
+3º: e a partir dela cria-se uma nova branch.
+
+Se faz este processo para que não se altere nada dentro da BRANCH ( Master, Develop, Homolocacao, etc).
+E estas branch devem apenas receberem atualização com o PULL REQUEST.
+
