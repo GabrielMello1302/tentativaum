@@ -3,6 +3,8 @@ Após salvo, iremos fazer o commit desse repositório para a branch com o comand
 Para finalizar e salvar no repositario local usamos: git push ( caso seja a primeira vez de uma nova branch,
 sera mostrado o código antes de lança-lo).
 
+************************************************************************************************************************************
+
 Podemos clonar um repositario local, a partir do link criado pelo git.
 Criaremos uma pasta que servira de local de armazenamento para esse novo repositório.
 Dentro dela acessamos o "Git Bash".
@@ -10,7 +12,7 @@ Usaremos o comando: git clone ( e clicaremos com o scroll do mouse para copiar a
 E após isto acessando novamente a pasta criada, todos os arquivos que estão no repositório(git) da URL passaram a existir nesta 
 nova pasta.
 
-Geralmente a branch PADRAO de uso é a develop, a MASTER normalmente o funcionario não tem acesso para enviar códigos.
+/*Geralmente a branch PADRAO de uso é a develop, a MASTER normalmente o funcionario não tem acesso para enviar códigos.*/
 
 Após criada o clone do repositório, iremos abrir no VScode esta pasta clone,
 utilizando o CTRL+J abrimos o terminal e mudamos de powershell para Git Bash.
@@ -42,6 +44,11 @@ o nome da branch acompanha a ação que foi realizada, por exemplo: bugfixed/tel
 Agora vamos fazer o merging (fundir) dessa branch criada com a branch DEVELOP, e subir para o repositório.
 
 Então como querermos implementar esse branch ( feature/tela-login). para a DEVELOP temos que acessar a develop.
-Para isso utilizamos o código ja visto: git checkout develop, e: git pull. para baixar qualquer tipo de alteração.
-E finalizamos com o comando para fundir as duas: git merge feature/tela-login.
-Então só nos falta mandar para o repositório, utilizando o comando: git push
+Para isso utilizamos o código ja visto: 
+git checkout develop, e: git pull.
+
+Para baixar qualquer tipo de alteração.
+E finalizamos com o comando para fundir as duas: 
+git merge feature/tela-login.
+
+Então só nos falta mandar para o repositório, utilizando o comando: git push.
