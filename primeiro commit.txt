@@ -15,3 +15,15 @@ Geralmente a branch PADRAO de uso é a develop, a MASTER normalmente o funcionar
 Após criada o clone do repositório, iremos abrir no VScode esta pasta clone,
 utilizando o CTRL+J abrimos o terminal e mudamos de powershell para Git Bash.
 Nele trocaremos a branch MASTER pela DEVELOP com o comando: git checkout develop.
+
+Utlilizaremos o código: git pull
+para baixar qualquer tipo de alteração que estava no código do github, e 
+ele nos mostra a mensagem de que ja estamos com a ultima versao.
+
+A partir disto criaremos uma feature nova usando o comando: 
+ git checkout -b feature/tela-login
+
+A sintaxe : -b. Nos indica que a FEATURE que esta sendo criada, será na branch utilizada no momento da criação.
+Ao executar esse comando ele criou uma branch nova chamada "Feature/tela-login" a parit da develop.
+
+Em resumou foi-se criada uma branch a partir de outra, sendo que está é um clone do repositório do Github.
