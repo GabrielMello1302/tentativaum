@@ -9,3 +9,5 @@ Dentro dela acessamos o "Git Bash".
 Usaremos o comando: git clone ( e clicaremos com o scroll do mouse para copiar a URL ).
 E após isto acessando novamente a pasta criada, todos os arquivos que estão no repositório da URL passaram a existir nesta 
 nova pasta.
+
+Geralmente a branch PADRAO de uso é a develop, a MASTER normalmente o funcionario não tem acesso para enviar códigos.
