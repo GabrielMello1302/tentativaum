@@ -1,0 +1,4 @@
+Para salver um código antes de lança-lo para o repositario local, utilizamos o comando: Git add .
+Após salvo, iremos fazer o commit desse repositório para a branch com o comando: git commit -m "comentario"
+Para finalizar e salvar no repositario local usamos: git push ( caso seja a primeira vez de uma nova branch,
+sera mostrado o código antes de lança-lo).
