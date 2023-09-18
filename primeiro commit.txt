@@ -1,2 +1,7 @@
 teste
 Como funciona o versionamento de codigos
+
+// <git add .> ele ira pegar todos os arquivos que teve modificacao
+
+no GitHub <Compare & pull request> da branch de 'homologacao', criaria uma solicitacao para que os arquivos de 
+'homologacao' sejam salvos dentro da branch que indicamos no pull request
