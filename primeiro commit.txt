@@ -9,3 +9,11 @@ no GitHub <Compare & pull request> da branch de 'homologacao', criaria uma solic
 Git status : mostras as alterações feitas.
 Git commint -m: para salvar as informações. 
 Git push: para subir essas informações para o repositório.
+
+Aula 04: 
+
+Tópicos de hoje: * clonar um repositório existente
+                 * criar uma nova branch apartir desse repositório clonado.
+                 * fazer algumas alterações no código.
+                 * fazer o merging dessa nova branch com a branch de develop ( ou alguma outra branch)
+                 * subir essas alterações para o repositório.
