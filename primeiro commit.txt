@@ -38,3 +38,10 @@ E estas branch devem apenas receberem atualização com o PULL REQUEST.
 
 Muitas empresas teem padrão na criação de BRANCH, Geralmente na maioria dos casos, 
 o nome da branch acompanha a ação que foi realizada, por exemplo: bugfixed/tela-login.
+
+Agora vamos fazer o merging (fundir) dessa branch criada com a branch DEVELOP, e subir para o repositório.
+
+Então como querermos implementar esse branch ( feature/tela-login). para a DEVELOP temos que acessar a develop.
+Para isso utilizamos o código ja visto: git checkout develop, e: git pull. para baixar qualquer tipo de alteração.
+E finalizamos com o comando para fundir as duas: git merge feature/tela-login.
+Então só nos falta mandar para o repositório, utilizando o comando: git push
