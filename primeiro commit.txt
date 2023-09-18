@@ -5,3 +5,7 @@ Como funciona o versionamento de codigos
 
 no GitHub <Compare & pull request> da branch de 'homologacao', criaria uma solicitacao para que os arquivos de 
 'homologacao' sejam salvos dentro da branch que indicamos no pull request
+
+Git status : mostras as alterações feitas.
+Git commint -m: para salvar as informações. 
+Git push: para subir essas informações para o repositório.
