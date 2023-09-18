@@ -11,3 +11,7 @@ E após isto acessando novamente a pasta criada, todos os arquivos que estão no
 nova pasta.
 
 Geralmente a branch PADRAO de uso é a develop, a MASTER normalmente o funcionario não tem acesso para enviar códigos.
+
+Após criada o clone do repositório, iremos abrir no VScode esta pasta clone,
+utilizando o CTRL+J abrimos o terminal e mudamos de powershell para Git Bash.
+Nele trocaremos a branch MASTER pela DEVELOP com o comando: git checkout develop.
