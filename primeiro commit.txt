@@ -17,3 +17,5 @@ Tópicos de hoje: * clonar um repositório existente
                  * fazer algumas alterações no código.
                  * fazer o merging dessa nova branch com a branch de develop ( ou alguma outra branch)
                  * subir essas alterações para o repositório.
+
+alterar o arquivo 
