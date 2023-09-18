@@ -7,7 +7,7 @@ Podemos clonar um repositario local, a partir do link criado pelo git.
 Criaremos uma pasta que servira de local de armazenamento para esse novo repositório.
 Dentro dela acessamos o "Git Bash".
 Usaremos o comando: git clone ( e clicaremos com o scroll do mouse para copiar a URL ).
-E após isto acessando novamente a pasta criada, todos os arquivos que estão no repositório da URL passaram a existir nesta 
+E após isto acessando novamente a pasta criada, todos os arquivos que estão no repositório(git) da URL passaram a existir nesta 
 nova pasta.
 
 Geralmente a branch PADRAO de uso é a develop, a MASTER normalmente o funcionario não tem acesso para enviar códigos.
@@ -20,13 +20,13 @@ Utlilizaremos o código: git pull
 para baixar qualquer tipo de alteração que estava no código do github, e 
 ele nos mostra a mensagem de que ja estamos com a ultima versao.
 
-A partir disto criaremos uma feature nova usando o comando: 
+A partir disto criaremos uma branch nova (feature/recurso) usando o comando: 
  git checkout -b feature/tela-login
 
-A sintaxe : -b. Nos indica que a FEATURE que esta sendo criada, será na branch utilizada no momento da criação.
+A sintaxe : -b. Nos indica que o RECURSO que esta sendo criado, será na branch utilizada no momento da criação no caso (Develop).
 Ao executar esse comando ele criou uma branch nova chamada "Feature/tela-login" a parit da develop.
 
-Em resumou foi-se criada uma branch a partir de outra, sendo que está é um clone do repositório do Github.
+Em resumou foi-se criada uma branch a partir de outra, sendo que está é uma pasta clone do repositório do Github.
 
 Em uma empresa é este processo que é feito: 
 1º: baixa o código do git em uma pasta local (clone).
@@ -36,3 +36,5 @@ Em uma empresa é este processo que é feito:
 Se faz este processo para que não se altere nada dentro da BRANCH ( Master, Develop, Homolocacao, etc).
 E estas branch devem apenas receberem atualização com o PULL REQUEST.
 
+Muitas empresas teem padrão na criação de BRANCH, Geralmente na maioria dos casos, 
+o nome da branch acompanha a ação que foi realizada, por exemplo: bugfixed/tela-login.
